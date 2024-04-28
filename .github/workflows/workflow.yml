@@ -1,14 +1,14 @@
-name: Run script every 10 mins
+name: Run script every minut
 on:
   schedule:
-    - cron: '*/10 * * * *' # запуск кожну годину
+    - cron: '* * * * *' # запуск кожну хвилину
 
 jobs:
   run_script:
     runs-on: ubuntu-latest
     env:
-        GOOGLE_APPLICATION_CREDENTIALS: ${ secrets.GOOGLE_APPLICATION_CREDENTIALS }
-        SPREADSHEET_ID: ${ secrets.SPREADSHEET_ID }
+        GOOGLE_APPLICATION_CREDENTIALS: ${{secrets.GOOGLE_APPLICATION_CREDENTIALS}}
+        SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
