@@ -570,7 +570,7 @@
     "Arival date": "19.04.2024"
   },
   {
-    "Index": "",
+    "Index": "3",
     "Department": "HR department",
     "Name": "Test person",
     "Discord": "testperson",
@@ -578,5 +578,15 @@
     "Status": "Middle",
     "Visible status": "Active",
     "Arival date": "28.04.2024"
+  },
+  {
+    "Index": "4",
+    "Department": "HR department",
+    "Name": "Test person 2",
+    "Discord": "testperson2",
+    "E-mail": "test2@gmail.com",
+    "Status": "Junior",
+    "Visible status": "passive",
+    "Arival date": "30.04.2024"
   }
 ]

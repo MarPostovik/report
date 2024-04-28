@@ -4,7 +4,7 @@ require('dotenv').config();
 
 async function getSheetData() {
     const auth = new google.auth.GoogleAuth({
-        keyFile: `${process.env.GOOGLE_APPLICATION_CREDENTIALS}`, // Змінна середовища для шляху до файлу з ключем
+        keyFile: process.env.GOOGLE_APPLICATION_CREDENTIALS, // Змінна середовища для шляху до файлу з ключем
         scopes: ['https://www.googleapis.com/auth/spreadsheets.readonly'],
     });
 
@@ -12,7 +12,7 @@ async function getSheetData() {
 
     try {
         const response = await sheets.spreadsheets.values.get({
-            spreadsheetId: `${process.env.SPREADSHEET_ID}`, // Змінна середовища для ідентифікатора таблиці
+            spreadsheetId: process.env.SPREADSHEET_ID, // Змінна середовища для ідентифікатора таблиці
             range: 'Аркуш1', // Назва аркуша або діапазон
         });
 

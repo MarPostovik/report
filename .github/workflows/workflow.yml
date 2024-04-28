@@ -1,5 +1,4 @@
-name: Run Script Every 10 Minutes
-
+name: Run script every 10 mins
 on:
   schedule:
     - cron: '*/10 * * * *' # запуск кожну годину
