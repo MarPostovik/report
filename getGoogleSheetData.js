@@ -12,7 +12,7 @@ async function getSheetData() {
 
     try {
         const response = await sheets.spreadsheets.values.get({
-            spreadsheetId: process.env.SPREADSHEET_ID, // Змінна середовища для ідентифікатора таблиці
+            spreadsheetId: `${process.env.SPREADSHEET_ID}`, // Змінна середовища для ідентифікатора таблиці
             range: 'Аркуш1', // Назва аркуша або діапазон
         });
 
