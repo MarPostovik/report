@@ -4,7 +4,7 @@ require('dotenv').config();
 
 async function getSheetData() {
     const auth = new google.auth.GoogleAuth({
-        keyFile: process.env.GOOGLE_APPLICATION_CREDENTIALS, // Змінна середовища для шляху до файлу з ключем
+        keyFile: `${process.env.GOOGLE_APPLICATION_CREDENTIALS}`, // Змінна середовища для шляху до файлу з ключем
         scopes: ['https://www.googleapis.com/auth/spreadsheets.readonly'],
     });
 
