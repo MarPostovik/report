@@ -1,0 +1,572 @@
+[
+  {
+    "Index": "1",
+    "Department": "Art department",
+    "Name": "Ivan Tsyvinskiy",
+    "Discord": "ivan_tsyvinskiy",
+    "E-mail": "ivan.tsyvinskiy@gmail.com",
+    "Status": "Leader",
+    "Visible status": "In the project (active)",
+    "Arival date": "05.06.2023"
+  },
+  {
+    "Index": "2",
+    "Department": "Art department",
+    "Name": "Vasylyna Tsyvinska",
+    "Discord": ".vasylyna",
+    "E-mail": "tsyvinska.vasylyna@gmail.com",
+    "Status": "Leader",
+    "Visible status": "In the project (active)",
+    "Arival date": "05.06.2023"
+  },
+  {
+    "Index": "3",
+    "Department": "Art department",
+    "Name": "Dima Kazban",
+    "Discord": "DimaKazban#1973",
+    "E-mail": "dmitriy.kazban@gmail.com",
+    "Status": "Senior",
+    "Visible status": "In the project (active)",
+    "Arival date": "05.06.2023"
+  },
+  {
+    "Index": "4",
+    "Department": "Art department",
+    "Name": "Mariia Klimenko",
+    "Discord": "_mashe4ka_",
+    "E-mail": "mariaklimenko200914@gmail.com",
+    "Status": "Middle",
+    "Visible status": "In the project (active)",
+    "Arival date": "05.06.2023"
+  },
+  {
+    "Index": "5",
+    "Department": "Art department",
+    "Name": "Artem Goroshko",
+    "Discord": "_prizrak._",
+    "E-mail": "artemgoroshko13@gmail.com",
+    "Status": "Middle",
+    "Visible status": "In the project (active)",
+    "Arival date": "16.08.2023"
+  },
+  {
+    "Index": "6",
+    "Department": "Art department",
+    "Name": "Dmytro Shylobrid",
+    "Discord": "Shylobrid Dima#9600",
+    "E-mail": "dima.shylobryd@gmail.com",
+    "Status": "Middle",
+    "Visible status": "In the project (active)",
+    "Arival date": "05.06.2023"
+  },
+  {
+    "Index": "7",
+    "Department": "Art department",
+    "Name": "Mikhailo Tsyvinskiy ",
+    "Discord": "mishatsyvinskiy",
+    "E-mail": "tsyvinski.misha@gmail.com",
+    "Status": "Middle",
+    "Visible status": "In the project (active)",
+    "Arival date": "05.06.2023"
+  },
+  {
+    "Index": "8",
+    "Department": "Art department",
+    "Name": "Mariana Khamuda",
+    "Discord": "marianakhamuda",
+    "E-mail": "mariannakhamuda@gmail.com",
+    "Status": "Middle",
+    "Visible status": "In the project (active)",
+    "Arival date": "15.01.2024"
+  },
+  {
+    "Index": "9",
+    "Department": "Art department",
+    "Name": "Denys Denys",
+    "Discord": "shcherbyna_denys",
+    "E-mail": "denisserbina048@gmail.com",
+    "Status": "Middle",
+    "Visible status": "In the project (active)",
+    "Arival date": "07.02.2024"
+  },
+  {
+    "Index": "10",
+    "Department": "Art department",
+    "Name": "Maksym Kovalchuk",
+    "Discord": "maksym_kovalchuk",
+    "E-mail": "kovalcukmaksim783@gmail.com",
+    "Status": "Middle",
+    "Visible status": "In the project (active)",
+    "Arival date": "13.02.2024"
+  },
+  {
+    "Index": "11",
+    "Department": "Art department",
+    "Name": "Vsevolod Onofrijchuk",
+    "Discord": "vsevolod_onofriijchuk587",
+    "E-mail": "vsonofrij@gmail.com",
+    "Status": "On probation",
+    "Visible status": "In the project (active)",
+    "Arival date": "18.03.2024"
+  },
+  {
+    "Index": "12",
+    "Department": "Art department",
+    "Name": "Artem Ostrovskyi ",
+    "Discord": "tema.ost",
+    "E-mail": "artemostrovskyi11@gmail.com",
+    "Status": "On probation",
+    "Visible status": "In the project (active)",
+    "Arival date": "14.02.2024"
+  },
+  {
+    "Index": "1",
+    "Department": "Game-design-engineering department",
+    "Name": "Vlad Kamyshenko",
+    "Discord": "vladkamyshenko",
+    "E-mail": "kamyshenko.vladislav@gmail.com",
+    "Status": "Chief Executive Officer",
+    "Visible status": "In the project (active)",
+    "Arival date": "19.05.2023"
+  },
+  {
+    "Index": "2",
+    "Department": "Game-design-engineering department",
+    "Name": "Nazar Barchenko",
+    "Discord": "nazar.barchenko",
+    "E-mail": "nazar.barchenko@gmail.com",
+    "Status": "Leader",
+    "Visible status": "In the project (active)",
+    "Arival date": "24.05.2023"
+  },
+  {
+    "Index": "3",
+    "Department": "Game-design-engineering department",
+    "Name": "Evheniy Revenko",
+    "Discord": "reflax0434_47641",
+    "E-mail": "evgeniyrevenko2005@gmail.com",
+    "Status": "Leader",
+    "Visible status": "In the project (active)",
+    "Arival date": "13.02.2024"
+  },
+  {
+    "Index": "4",
+    "Department": "Game-design-engineering department",
+    "Name": "Ilia Kuzin",
+    "Discord": "iliakuzin",
+    "E-mail": "ilia.ku3in2003@gmail.com",
+    "Status": "Senior",
+    "Visible status": "In the project (active)",
+    "Arival date": "30.01.2024"
+  },
+  {
+    "Index": "5",
+    "Department": "Game-design-engineering department",
+    "Name": "Vladyslav Melnyk",
+    "Discord": "vladyslavmelnyk",
+    "E-mail": "melnikvlad086@gmail.com",
+    "Status": "Middle",
+    "Visible status": "In the project (active)",
+    "Arival date": "26.05.2023"
+  },
+  {
+    "Index": "6",
+    "Department": "Game-design-engineering department",
+    "Name": "Sergey Shkil",
+    "Discord": "sergeyshkil",
+    "E-mail": "sergeyshkilh@gmail.com",
+    "Status": "Middle",
+    "Visible status": "In the project (active)",
+    "Arival date": "24.05.2023"
+  },
+  {
+    "Index": "7",
+    "Department": "Game-design-engineering department",
+    "Name": "Leonid Omeliuk",
+    "Discord": "mr.s.m.i.l.e.",
+    "E-mail": "leonidomeliuk@gmail.com\n",
+    "Status": "Junior",
+    "Visible status": "In the project (active)",
+    "Arival date": "04.02.2024"
+  },
+  {
+    "Index": "1",
+    "Department": "Project manager department",
+    "Name": "Sofia Surova",
+    "Discord": "sofiasurova",
+    "E-mail": "surovasofia2008@gmail.com",
+    "Status": "Leader",
+    "Visible status": "In the project (active)",
+    "Arival date": "18.05.2023"
+  },
+  {
+    "Index": "2",
+    "Department": "Project manager department",
+    "Name": "Margo Skrylnikova",
+    "Discord": "margoskrylnikova",
+    "E-mail": "margoskrylja02@gmail.com",
+    "Status": "Leader, on probation",
+    "Visible status": "In the project (active)",
+    "Arival date": "09.04.2024"
+  },
+  {
+    "Index": "3",
+    "Department": "Project manager department",
+    "Name": "Artur Savinov\n",
+    "Discord": "artur_savinov",
+    "E-mail": "artursavinov2@gmail.com",
+    "Status": "On probation",
+    "Visible status": "In the project (active)",
+    "Arival date": "09.04.2024"
+  },
+  {
+    "Index": "4",
+    "Department": "Project manager department",
+    "Name": "Oleksii Kultchytskyi",
+    "Discord": "kultchytskyi_oleksii",
+    "E-mail": "kultchytskyioleksii@gmail.com",
+    "Status": "On probation",
+    "Visible status": "In the project (active)",
+    "Arival date": "22.04.2024"
+  },
+  {
+    "Index": "5",
+    "Department": "Project manager department",
+    "Name": "Artem Chukarin",
+    "Discord": "4ange1",
+    "E-mail": "chukarinartem@gmail.com",
+    "Status": "Senior",
+    "Visible status": "In the project (inactive)",
+    "Arival date": "12.02.2022"
+  },
+  {
+    "Index": "6",
+    "Department": "Project manager department",
+    "Name": "Vitaliy Ivahiv",
+    "Discord": "v_ivahiv",
+    "E-mail": "ivahiv99@gmail.com",
+    "Status": "On probation",
+    "Visible status": "In the project (active)",
+    "Arival date": "25.04.2024"
+  },
+  {
+    "Index": "1",
+    "Department": "Web department",
+    "Name": "Ruslana Sokolovska",
+    "Discord": "ruslana_sokolovska",
+    "E-mail": "ruslanasokolovskaa01@gmail.com",
+    "Status": "Chief Operating Officer",
+    "Visible status": "In the project (active)",
+    "Arival date": "15.11.2023"
+  },
+  {
+    "Index": "2",
+    "Department": "Web department",
+    "Name": "Nazar Pauk",
+    "Discord": "fayshet",
+    "E-mail": "nazarpauk5@gmail.com",
+    "Status": "Leader",
+    "Visible status": "In the project (active)",
+    "Arival date": "18.05.2023"
+  },
+  {
+    "Index": "3",
+    "Department": "Web department",
+    "Name": "Mariia Postovik",
+    "Discord": "mariiapostovik",
+    "E-mail": "mariiapostovik@gmail.com",
+    "Status": "Leader",
+    "Visible status": "In the project (active)",
+    "Arival date": "15.11.2023"
+  },
+  {
+    "Index": "4",
+    "Department": "Web department",
+    "Name": "Dasha Sayko",
+    "Discord": "dashasayko",
+    "E-mail": "saykodaria@gmail.com",
+    "Status": "Middle",
+    "Visible status": "In the project (active)",
+    "Arival date": "27.05.2023"
+  },
+  {
+    "Index": "5",
+    "Department": "Web department",
+    "Name": "Diana Nesteruk",
+    "Discord": "diana.nesteruk",
+    "E-mail": "diana.nesteruk77@gmail.com",
+    "Status": "Middle",
+    "Visible status": "In the project (active)",
+    "Arival date": "15.11.2023"
+  },
+  {
+    "Index": "6",
+    "Department": "Web department",
+    "Name": "Vlad Hridin",
+    "Discord": "vlad_hridin",
+    "E-mail": "vladhridin1@gmail.com",
+    "Status": "On probation",
+    "Visible status": "In the project (active)",
+    "Arival date": "08.04.2024"
+  },
+  {
+    "Index": "7",
+    "Department": "Web department",
+    "Name": "Ksenia Sorokina",
+    "Discord": "sorokina_ksenia",
+    "E-mail": "sorokina.ksenia33@gmail.com",
+    "Status": "On probation",
+    "Visible status": "In the project (active)",
+    "Arival date": "15.04.2024"
+  },
+  {
+    "Index": "8",
+    "Department": "Web department",
+    "Name": "Ivan Marchenko",
+    "Discord": "marchenkoivan_",
+    "E-mail": "ivanmarchenko8002@gmail.com",
+    "Status": "On probation",
+    "Visible status": "In the project (active)",
+    "Arival date": "16.04.2024"
+  },
+  {
+    "Index": "1",
+    "Department": "Python department",
+    "Name": "Platon Todorashko",
+    "Discord": "p_xt.szx",
+    "E-mail": "platontodorashko@gmail.com",
+    "Status": "Leader",
+    "Visible status": "In the project (active)",
+    "Arival date": "01.08.22"
+  },
+  {
+    "Index": "2",
+    "Department": "Python department",
+    "Name": "Viktoriia Tkach",
+    "Discord": "viktoriia_tkach05",
+    "E-mail": "tkach.viktoriia2003@gmail.com\n",
+    "Status": "Leader",
+    "Visible status": "In the project (active)",
+    "Arival date": "25.12.2023"
+  },
+  {
+    "Index": "3",
+    "Department": "Python department",
+    "Name": "Viacheslav Dryha",
+    "Discord": "viacheslavdryha",
+    "E-mail": "dryha.viacheslav@gmail.com\n",
+    "Status": "Senior",
+    "Visible status": "In the project (active)",
+    "Arival date": "21.01.2024"
+  },
+  {
+    "Index": "1",
+    "Department": "Web  design department",
+    "Name": "Ruslana Bilan",
+    "Discord": "ruslanabilan_",
+    "E-mail": "ruslanabilan6@gmail.com",
+    "Status": "On probation",
+    "Visible status": "In the project (active)",
+    "Arival date": "23.04.2024"
+  },
+  {
+    "Index": "2",
+    "Department": "Web  design department",
+    "Name": "Yuliia Yatsko",
+    "Discord": "yuliia_yatsko",
+    "E-mail": "yuliiayatsko@gmail.com",
+    "Status": "On probation",
+    "Visible status": "In the project (active)",
+    "Arival date": "23.04.2024"
+  },
+  {
+    "Index": "3",
+    "Department": "Web  design department",
+    "Name": "Irene Orel",
+    "Discord": "irene_ux_ui",
+    "E-mail": "iryna.orel.designer@gmail.com",
+    "Status": "On probation",
+    "Visible status": "In the project (active)",
+    "Arival date": "24.04.2024"
+  },
+  {
+    "Index": "4",
+    "Department": "Web  design department",
+    "Name": "Anastasiia Lunko",
+    "Discord": "anastasiialunko",
+    "E-mail": "lunkoanastasia@gmail.com",
+    "Status": "On probation",
+    "Visible status": "In the project (active)",
+    "Arival date": "25.04.2024"
+  },
+  {
+    "Index": "5",
+    "Department": "Web  design department",
+    "Name": "Yuliia Lytvyn ",
+    "Discord": "yulia04726",
+    "E-mail": "24litvinyulia@gmail.com",
+    "Status": "On probation",
+    "Visible status": "In the project (active)",
+    "Arival date": "25.04.2024"
+  },
+  {
+    "Index": "6",
+    "Department": "Web  design department",
+    "Name": "Iryna Chesnokova",
+    "Discord": "iryna_77453",
+    "E-mail": "iryna.chesnokova.work@gmail.com",
+    "Status": "On probation",
+    "Visible status": "In the project (active)",
+    "Arival date": "25.04.2024"
+  },
+  {
+    "Index": "7",
+    "Department": "Web  design department",
+    "Name": "Alina Vinichenko",
+    "Discord": "alinavinichenko",
+    "E-mail": "alina.vinichenko20@gmail.com",
+    "Status": "On probation",
+    "Visible status": "In the project (active)",
+    "Arival date": "26.04.2024"
+  },
+  {
+    "Index": "1",
+    "Department": "Sound design department",
+    "Name": "David Hromik",
+    "Discord": "davydhromik",
+    "E-mail": "davydhromik@gmail.com",
+    "Status": "Member",
+    "Visible status": "In the project (temporary)",
+    "Arival date": "14.01.2024"
+  },
+  {
+    "Index": "1",
+    "Department": "Narrative Design department",
+    "Name": "Antonina Afanasieva",
+    "Discord": "deadkrapka",
+    "E-mail": "antoniaafanasieva@gmail.com",
+    "Status": "Leader",
+    "Visible status": "In the project (active)",
+    "Arival date": "06.02.2024"
+  },
+  {
+    "Index": "2",
+    "Department": "Narrative Design department",
+    "Name": "Margarita Sudorenko",
+    "Discord": "ayami3885",
+    "E-mail": "margaritasudorzhenko@gmail.com",
+    "Status": "Concept artist, on probation",
+    "Visible status": "In the project (active)",
+    "Arival date": "14.03.2024"
+  },
+  {
+    "Index": "3",
+    "Department": "Narrative Design department",
+    "Name": "Ivan Karpyn",
+    "Discord": "generall_lil",
+    "E-mail": "ivankarpin12@gmail.com",
+    "Status": "Narrative, on probation",
+    "Visible status": "In the project (active)",
+    "Arival date": "15.03.2024"
+  },
+  {
+    "Index": "1",
+    "Department": "QA department",
+    "Name": "Serhii Kononchuk",
+    "Discord": "serhii_kononchuk.",
+    "E-mail": "serhiikononchuk9@gmail.com",
+    "Status": "Leader",
+    "Visible status": "In the project (inactive)",
+    "Arival date": "01.12.23"
+  },
+  {
+    "Index": "2",
+    "Department": "QA department",
+    "Name": "Katerina Kucheruk ",
+    "Discord": "kucheruk_kateryna",
+    "E-mail": "katerinakucheruk@gmail.com",
+    "Status": "On probation",
+    "Visible status": "In the project (active)",
+    "Arival date": "15.04.24"
+  },
+  {
+    "Index": "1",
+    "Department": "Marketing department",
+    "Name": "Rina Streltsova",
+    "Discord": "rinastreltsova",
+    "E-mail": "rinastreltsova@gmail.com",
+    "Status": "Chief Marketing Officer",
+    "Visible status": "In the project (active)",
+    "Arival date": "11.02.2024"
+  },
+  {
+    "Index": "2",
+    "Department": "Marketing department",
+    "Name": "Anastasia Korneva",
+    "Discord": "ameenfleurs",
+    "E-mail": "kornevaanastasia.work@gmail.com",
+    "Status": "Leader, on probation",
+    "Visible status": "In the project (active)",
+    "Arival date": "26.02.2024"
+  },
+  {
+    "Index": "3",
+    "Department": "Marketing department",
+    "Name": "Victoria Lozanova",
+    "Discord": "vika3109",
+    "E-mail": "lozanovavictoria048@gmail.com",
+    "Status": "Leader, on probation",
+    "Visible status": "In the project (active)",
+    "Arival date": "26.02.2024"
+  },
+  {
+    "Index": "4",
+    "Department": "Marketing department",
+    "Name": "Victoria Levynska",
+    "Discord": "victorialevynska",
+    "E-mail": "victorialevynska@gmail.com",
+    "Status": "On probation",
+    "Visible status": "In the project (active)",
+    "Arival date": "24.04.2024"
+  },
+  {
+    "Index": "1",
+    "Department": "Game producer department",
+    "Name": "Leonid Shtutman",
+    "Discord": "stolev09",
+    "E-mail": "leonidshtutman@gmail.com",
+    "Status": "Leader",
+    "Visible status": "In project (active)",
+    "Arival date": "11.01.2024"
+  },
+  {
+    "Index": "1",
+    "Department": "Business analyst department",
+    "Name": "Inna Kozina\n",
+    "Discord": "innakozina\n",
+    "E-mail": "innakozina1545@gmail.com",
+    "Status": "On probation",
+    "Visible status": "In project (active)",
+    "Arival date": "17.01.2024"
+  },
+  {
+    "Index": "1",
+    "Department": "HR department",
+    "Name": "Serezha Proskurnin",
+    "Discord": "serezha_proskurnin",
+    "E-mail": "serezhaproskurnin@gmail.com",
+    "Status": "Chief Visionary Officer",
+    "Visible status": "In the project (active)",
+    "Arival date": "22.05.2023"
+  },
+  {
+    "Index": "2",
+    "Department": "HR department",
+    "Name": "Ann Bolshakova",
+    "Discord": "annbolshakova",
+    "E-mail": "annbolshakova11@gmail.com",
+    "Status": "On probation",
+    "Visible status": "In the project (active)",
+    "Arival date": "19.04.2024"
+  }
+]
