@@ -8,7 +8,7 @@ jobs:
   run_script:
     runs-on: ubuntu-latest
     env:
-        GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
+        CREDENTIALS: ${{ secrets.CREDENTIALS }}
         SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
     steps:
       - name: Checkout code
