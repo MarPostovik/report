@@ -15,14 +15,9 @@ const credentials = {
     client_x509_cert_url: process.env.CLIENT_X509_CERT_URL
 };
 const id = process.env.SPREADSHEET_ID;
-console.log(credentials);
-console.log(id);
 
 // Збереження credentials в файл credentials.json
 fs.writeFileSync('credentials.json', JSON.stringify(credentials));
-
-console.log("Credentials:" + credentials);
-console.log("id" + id);
 
 async function getSheetData() {
     const auth = new google.auth.GoogleAuth({
