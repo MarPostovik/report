@@ -24,7 +24,6 @@ jobs:
       - name: Load .env variables
         run: |
           echo "$CREDENTIALS" > credentials.json
-          cat credentials.json 
 
       - name: Run script
         run: |
