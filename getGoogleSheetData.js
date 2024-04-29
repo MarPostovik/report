@@ -53,6 +53,7 @@ async function getSheetData() {
 
             const jsonStr = JSON.stringify(jsonData, null, 2);
             fs.writeFileSync('output.json', jsonStr);
+            console.log(jsonStr)
             console.log('Дані успішно збережено у файлі output.json');
         } else {
             console.log('Не знайдено жодних даних.');
