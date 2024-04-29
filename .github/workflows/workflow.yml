@@ -1,11 +1,11 @@
 name: Run script every minute
 
 on:
-  schedule:
-    - cron: '* * * * *' # запуск кожну хвилину
-  # push:
-  #   branches:
-  #     - master
+  # schedule:
+  # - cron: '* * * * *' # запуск кожну хвилину
+  push:
+    branches:
+      - master
 jobs:
   update_json_file:
     runs-on: ubuntu-latest
