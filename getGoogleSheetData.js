@@ -1,14 +1,14 @@
 // require('dotenv').config();
 const { google } = require('googleapis');
 const fs = require('fs');
-const credentials = process.env.CREDENTIALS;
+const credentials = require('./credentials.json');
 const id = process.env.SPREADSHEET_ID;
 console.log(credentials);
 console.log(id);
 
 async function getSheetData() {
     const auth = new google.auth.GoogleAuth({
-        keyFile: credentials, // Змінна середовища для шляху до файлу з ключем
+        credentials, // Змінна середовища для шляху до файлу з ключем
         scopes: ['https://www.googleapis.com/auth/spreadsheets.readonly'],
     });
 
