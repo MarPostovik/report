@@ -35,3 +35,11 @@ jobs:
 
       - name: Run script
         run: node getGoogleSheetData.js
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "accaunt01.13@gmail.com"
+          git config --local user.name "Mariia Postovik"
+          git add .
+          git commit -m "Update data [skip ci]"
+          git push
