@@ -1,11 +1,11 @@
 name: Run script every minute
 
 on:
-  # schedule:
-  #   - cron: '* * * * *' # запуск кожну хвилину
-  push:
-    branches:
-      - master
+  schedule:
+    - cron: '* * * * *' # запуск кожну хвилину
+  # push:
+  #   branches:
+  #     - master
 jobs:
   update_json_file:
     runs-on: ubuntu-latest
@@ -21,6 +21,7 @@ jobs:
       AUTH_PROVIDER_X509_CERT_URL: ${{secrets.AUTH_PROVIDER_X509_CERT_URL}} 
       CLIENT_X509_CERT_URL:  ${{secrets.CLIENT_X509_CERT_URL}}
       SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -40,6 +41,6 @@ jobs:
         run: |
           git config --local user.email "accaunt01.13@gmail.com"
           git config --local user.name "Mariia Postovik"
-          git add .
+          git add output.json
           git commit -m "Update data [skip ci]"
           git push
