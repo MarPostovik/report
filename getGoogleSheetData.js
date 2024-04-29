@@ -1,8 +1,26 @@
 require('dotenv').config(); // Якщо ви використовуєте dotenv, розкоментуйте цей рядок
 const { google } = require('googleapis');
 const fs = require('fs');
-const credentials = JSON.parse(fs.readFileSync('credentials.json'));
+
+const credentials = {
+    type: process.env.TYPE,
+    project_id: process.env.PROJECT_ID,
+    private_key_id: process.env.PRIVATE_KEY_ID,
+    private_key: process.env.PRIVATE_KEY.replace(/\\n/g, '\n'), // виправлення для ключа
+    client_email: process.env.CLIENT_EMAIL,
+    client_id: process.env.CLIENT_ID,
+    auth_uri: process.env.AUTH_URI,
+    token_uri: process.env.TOKEN_URI,
+    auth_provider_x509_cert_url: process.env.AUTH_PROVIDER_X509_CERT_URL,
+    client_x509_cert_url: process.env.CLIENT_X509_CERT_URL
+};
 const id = process.env.SPREADSHEET_ID;
+console.log(credentials);
+console.log(id);
+
+// Збереження credentials в файл credentials.json
+fs.writeFileSync('credentials.json', JSON.stringify(credentials));
+
 console.log("Credentials:" + credentials);
 console.log("id" + id);
 
