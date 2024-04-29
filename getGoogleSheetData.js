@@ -8,7 +8,7 @@ console.log(credentials);
 console.log(id);
 
 function saveCredentialsToFile(credentialsObj) {
-    const credentialsPath = path.join(__dirname, 'credentials.json');
+    const credentialsPath = path.join('credentials.json');
     fs.writeFileSync(credentialsPath, JSON.stringify(credentialsObj, null, 2));
     return credentialsPath;
 }
