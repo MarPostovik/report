@@ -1,6 +1,7 @@
 // require('dotenv').config();
 const { google } = require('googleapis');
 const fs = require('fs');
+const path = require('path');
 const credentials = process.env.CREDENTIALS;
 const id = process.env.SPREADSHEET_ID;
 console.log(credentials);
