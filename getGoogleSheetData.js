@@ -1,4 +1,4 @@
-require('dotenv').config();
+// require('dotenv').config();
 const { google } = require('googleapis');
 const fs = require('fs');
 const credentials = process.env.GOOGLE_APPLICATION_CREDENTIALS;
