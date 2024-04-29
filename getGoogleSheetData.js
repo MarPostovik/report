@@ -1,24 +1,14 @@
-// require('dotenv').config();
+require('dotenv').config(); // Якщо ви використовуєте dotenv, розкоментуйте цей рядок
 const { google } = require('googleapis');
 const fs = require('fs');
-const path = require('path');
-const credentials = process.env.CREDENTIALS;
+const credentials = JSON.parse(process.env.CREDENTIALS); // Парсимо рядок JSON у об'єкт
 const id = process.env.SPREADSHEET_ID;
 console.log(credentials);
 console.log(id);
 
-function saveCredentialsToFile(credentialsObj) {
-    const credentialsPath = path.join('credentials.json');
-    fs.writeFileSync(credentialsPath, JSON.stringify(credentialsObj, null, 2));
-    return credentialsPath;
-}
-
-// Зберігаємо об'єкт credentials у файл JSON
-const credentialsFilePath = saveCredentialsToFile(credentials);
-
 async function getSheetData() {
     const auth = new google.auth.GoogleAuth({
-        keyFile: credentialsFilePath, // Змінна середовища для шляху до файлу з ключем
+        credentials, // Використовуємо об'єкт credentials замість шляху до файлу
         scopes: ['https://www.googleapis.com/auth/spreadsheets.readonly'],
     });
 

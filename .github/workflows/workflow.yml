@@ -1,15 +1,17 @@
 name: Run script every minute
 
 on:
-  schedule:
-    - cron: '* * * * *' # запуск кожну хвилину
-
+  # schedule:
+  #   - cron: '* * * * *' # запуск кожну хвилину
+  push:
+    branches:
+      - master
 jobs:
-  run_script:
+  example_job:
     runs-on: ubuntu-latest
     env:
-        CREDENTIALS: ${{ secrets.CREDENTIALS }}
-        SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
+      GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.CREDENTIALS }}
+      SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
