@@ -8,6 +8,7 @@ jobs:
   run_script:
     runs-on: ubuntu-latest
     env:
+        CREDENTIALS: ${{ secrets.CREDENTIALS }}
         SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
     steps:
       - name: Checkout code
@@ -21,13 +22,5 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Load .env variables
-        run: |
-          echo "$CREDENTIALS" > credentials.json
-
       - name: Run script
-        run: |
-          node getGoogleSheetData.js
-      # Додатково видаляємо файл
-      - name: Remove credentials file
-        run: rm credentials.json
+        run: node getGoogleSheetData.js

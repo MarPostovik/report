@@ -1,25 +1,23 @@
+// require('dotenv').config();
 const { google } = require('googleapis');
 const fs = require('fs');
-const path = require('path'); // Import the path module
+const credentials = process.env.CREDENTIALS;
 const id = process.env.SPREADSHEET_ID;
+console.log(credentials);
 console.log(id);
 
-// Define the path to credentials.json relative to this script
-const credentialsPath = path.join(__dirname, 'credentials.json');
-
-// Check if credentials.json exists
-if (!fs.existsSync(credentialsPath)) {
-    console.error('Error: credentials.json not found.');
-    process.exit(1); // Exit the script with an error code
+function saveCredentialsToFile(credentialsObj) {
+    const credentialsPath = path.join(__dirname, 'credentials.json');
+    fs.writeFileSync(credentialsPath, JSON.stringify(credentialsObj, null, 2));
+    return credentialsPath;
 }
 
-// Read and parse credentials from the JSON file
-const credentials = require(credentialsPath);
-console.log(credentials); // Print the loaded credentials
+// Зберігаємо об'єкт credentials у файл JSON
+const credentialsFilePath = saveCredentialsToFile(credentials);
 
 async function getSheetData() {
     const auth = new google.auth.GoogleAuth({
-        credentials, // Use the credentials object directly
+        keyFile: credentialsFilePath, // Змінна середовища для шляху до файлу з ключем
         scopes: ['https://www.googleapis.com/auth/spreadsheets.readonly'],
     });
 
@@ -27,13 +25,13 @@ async function getSheetData() {
 
     try {
         const response = await sheets.spreadsheets.values.get({
-            spreadsheetId: id,
-            range: 'Sheet1', // Adjust the range as needed
+            spreadsheetId: id, // Змінна середовища для ідентифікатора таблиці
+            range: 'Аркуш1', // Назва аркуша або діапазон
         });
 
         const rows = response.data.values;
         if (rows.length) {
-            const header = rows[0];
+            const header = rows[0]; // Перший рядок як заголовки
             const jsonData = [];
 
             for (let i = 1; i < rows.length; i++) {
@@ -46,12 +44,12 @@ async function getSheetData() {
 
             const jsonStr = JSON.stringify(jsonData, null, 2);
             fs.writeFileSync('output.json', jsonStr);
-            console.log('Data successfully saved to output.json');
+            console.log('Дані успішно збережено у файлі output.json');
         } else {
-            console.log('No data found.');
+            console.log('Не знайдено жодних даних.');
         }
     } catch (err) {
-        console.error('Error fetching data from Google Sheets:', err);
+        console.error('Помилка отримання даних з Google Sheets:', err);
     }
 }
 
