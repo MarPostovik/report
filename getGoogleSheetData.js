@@ -1,10 +1,10 @@
 require('dotenv').config(); // Якщо ви використовуєте dotenv, розкоментуйте цей рядок
 const { google } = require('googleapis');
 const fs = require('fs');
-const credentials = JSON.parse(process.env.CREDENTIALS); // Парсимо рядок JSON у об'єкт
+const credentials = JSON.parse(fs.readFileSync('credentials.json'));
 const id = process.env.SPREADSHEET_ID;
-console.log(credentials);
-console.log(id);
+console.log("Credentials:" + credentials);
+console.log("id" + id);
 
 async function getSheetData() {
     const auth = new google.auth.GoogleAuth({
