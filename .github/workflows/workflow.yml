@@ -1,4 +1,5 @@
-name: Run script every minut
+name: Run script every minute
+
 on:
   schedule:
     - cron: '* * * * *' # запуск кожну хвилину
@@ -6,9 +7,6 @@ on:
 jobs:
   run_script:
     runs-on: ubuntu-latest
-    # env:
-    #     GOOGLE_APPLICATION_CREDENTIALS: ${{secrets.GOOGLE_APPLICATION_CREDENTIALS}}
-    #     SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -18,10 +16,10 @@ jobs:
         with:
           node-version: '14'
 
-      - name: Load .env variables
+      - name: Set up environment variables
         run: |
-            echo "GOOGLE_APPLICATION_CREDENTIALS=${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}" >> .env
-            echo "SPREADSHEET_ID=${{ secrets.SPREADSHEET_ID }}" >> .env
+          echo "GOOGLE_APPLICATION_CREDENTIALS=${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}" >> $GITHUB_ENV
+          echo "SPREADSHEET_ID=${{ secrets.SPREADSHEET_ID }}" >> $GITHUB_ENV
 
       - name: Install dependencies
         run: npm install
