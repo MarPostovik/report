@@ -21,7 +21,6 @@ jobs:
       AUTH_PROVIDER_X509_CERT_URL: ${{secrets.AUTH_PROVIDER_X509_CERT_URL}} 
       CLIENT_X509_CERT_URL:  ${{secrets.CLIENT_X509_CERT_URL}}
       SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
-      GH_TOKEN: ${{ secrets.GH_TOKEN }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -38,6 +37,8 @@ jobs:
         run: node getGoogleSheetData.js
 
       - name: Commit and push changes
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           git config --local user.email "accaunt01.13@gmail.com"
           git config --local user.name "Mariia Postovik"
