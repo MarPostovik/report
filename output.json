@@ -242,12 +242,12 @@
   {
     "Index": "6",
     "Department": "Project manager department",
-    "Name": "Vitaliy Ivahiv",
-    "Discord": "v_ivahiv",
-    "E-mail": "ivahiv99@gmail.com",
+    "Name": "Vasyl Lysyy",
+    "Discord": "vasyl_lysyy",
+    "E-mail": "vasyllysyy82@gmail.com",
     "Status": "On probation",
     "Visible status": "In the project (active)",
-    "Arival date": "25.04.2024"
+    "Arival date": "29.04.2024"
   },
   {
     "Index": "1",
@@ -460,16 +460,6 @@
     "Arival date": "14.03.2024"
   },
   {
-    "Index": "3",
-    "Department": "Narrative Design department",
-    "Name": "Ivan Karpyn",
-    "Discord": "generall_lil",
-    "E-mail": "ivankarpin12@gmail.com",
-    "Status": "Narrative, on probation",
-    "Visible status": "In the project (active)",
-    "Arival date": "15.03.2024"
-  },
-  {
     "Index": "1",
     "Department": "QA department",
     "Name": "Serhii Kononchuk",
@@ -570,23 +560,78 @@
     "Arival date": "19.04.2024"
   },
   {
+    "Index": "1",
+    "Department": "Web design department",
+    "Name": "Ruslana Bilan",
+    "Discord": "ruslanabilan_",
+    "E-mail": "ruslanabilan6@gmail.com",
+    "Status": "Leader, on probation",
+    "Visible status": "In the project (active)",
+    "Arival date": "23.04.2024"
+  },
+  {
+    "Index": "2",
+    "Department": "Web design department",
+    "Name": "Yuliia Yatsko",
+    "Discord": "yuliia_yatsko",
+    "E-mail": "yuliiayatsko@gmail.com",
+    "Status": "On probation",
+    "Visible status": "In the project (active)",
+    "Arival date": "23.04.2024"
+  },
+  {
     "Index": "3",
-    "Department": "HR department",
-    "Name": "Test person",
-    "Discord": "testperson",
-    "E-mail": "test@gmail.com",
-    "Status": "Middle",
-    "Visible status": "Active",
-    "Arival date": "28.04.2024"
+    "Department": "Web design department",
+    "Name": "Irene Orel",
+    "Discord": "irene_ux_ui",
+    "E-mail": "iryna.orel.designer@gmail.com",
+    "Status": "On probation",
+    "Visible status": "In the project (active)",
+    "Arival date": "24.04.2024"
   },
   {
     "Index": "4",
-    "Department": "HR department",
-    "Name": "Test person 2",
-    "Discord": "testperson2",
-    "E-mail": "test2@gmail.com",
-    "Status": "Junior",
-    "Visible status": "passive",
-    "Arival date": "30.04.2024"
+    "Department": "Web design department",
+    "Name": "Anastasiia Lunko",
+    "Discord": "anastasiialunko",
+    "E-mail": "lunkoanastasia@gmail.com",
+    "Status": "On probation",
+    "Visible status": "In the project (active)",
+    "Arival date": "25.04.2024"
+  },
+  {
+    "Index": "5",
+    "Department": "Web design department",
+    "Name": "Victoria  Slonchak",
+    "Discord": "viktoriassssvi",
+    "E-mail": "vikaslonshak15@gmail.com",
+    "Status": "On probation",
+    "Visible status": "In the project (active)",
+    "Arival date": "01.05.2024"
+  },
+  {
+    "Index": "6",
+    "Department": "Web design department",
+    "Name": "Yaroslava Khluzova",
+    "Discord": "yaroalavakhlyzova",
+    "E-mail": "yaroslavamatvienko7@gmail.com",
+    "Status": "On probation",
+    "Visible status": "In the project (active)",
+    "Arival date": "01.05.2024"
+  },
+  {
+    "Index": "7",
+    "Department": "Web design department",
+    "Name": "Valeria Nikolaeva",
+    "Discord": "valeria.nik",
+    "E-mail": "valeria_nikolaeva@icloud.com",
+    "Status": "On probation",
+    "Visible status": "09.05.2024",
+    "Arival date": "01.05.2024"
+  },
+  {
+    "Index": "8",
+    "Department": "Web design department",
+    "Name": "Olena Luzan"
   }
 ]

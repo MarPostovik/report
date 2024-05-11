@@ -1,4 +1,4 @@
-require('dotenv').config(); // Якщо ви використовуєте dotenv, розкоментуйте цей рядок
+require('dotenv').config();
 const { google } = require('googleapis');
 const fs = require('fs');
 
@@ -15,9 +15,6 @@ const credentials = {
     client_x509_cert_url: process.env.CLIENT_X509_CERT_URL
 };
 const id = process.env.SPREADSHEET_ID;
-
-// Збереження credentials в файл credentials.json
-fs.writeFileSync('credentials.json', JSON.stringify(credentials));
 
 async function getSheetData() {
     const auth = new google.auth.GoogleAuth({
@@ -48,7 +45,6 @@ async function getSheetData() {
 
             const jsonStr = JSON.stringify(jsonData, null, 2);
             fs.writeFileSync('output.json', jsonStr);
-            console.log(jsonStr)
             console.log('Дані успішно збережено у файлі output.json');
         } else {
             console.log('Не знайдено жодних даних.');
