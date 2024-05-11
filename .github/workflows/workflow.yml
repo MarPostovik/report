@@ -34,4 +34,4 @@ jobs:
         run: npm install
 
       - name: Run script
-        run: node getGoogleSheetData.js
+        run: node index.js
